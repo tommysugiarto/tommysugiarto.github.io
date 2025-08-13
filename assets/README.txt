@@ -1,1 +1,1 @@
-Place your headshot here as 'profile.jpg' (ideally 600x600).
+Place your headshot here as 'profile.jpg' ideally 600x600.
