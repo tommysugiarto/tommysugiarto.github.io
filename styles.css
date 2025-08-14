@@ -74,3 +74,26 @@ h2 { margin: 8px 0 10px; font-size: 1.4rem; }
 @media (max-width: 520px) {
   h1 { font-size: 1.6rem; }
 }
+
+/* --- Logos next to org names --- */
+.org {
+  display: flex; align-items: center; gap: 10px;
+}
+.org-logo {
+  width: 28px; height: 28px; border-radius: 6px; object-fit: contain;
+  border: 1px solid rgba(0,0,0,0.06);
+}
+
+/* --- Section headers with icons --- */
+.section-title {
+  display: flex; align-items: center; gap: 10px; margin: 8px 0 10px;
+}
+.icon {
+  width: 22px; height: 22px; flex: 0 0 22px;
+}
+
+/* --- Publication list look --- */
+.pubs .pub { padding: 10px 0; border-bottom: 1px dashed rgba(0,0,0,0.06); }
+.pub-title { margin-bottom: 4px; }
+.pub-meta a { color: var(--link); text-decoration: none; }
+
