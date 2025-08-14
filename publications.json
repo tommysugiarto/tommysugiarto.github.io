@@ -1,1 +1,343 @@
-[]
+[
+  {
+    "title": "Performance of deep-learning models incorporating knee alignment information for predicting ground reaction force during walking",
+    "authors": [
+      "Tommy Sugiarto",
+      "Yi-Jia Lin",
+      "Hsiao-Liang Tsai",
+      "Chi-Tien Sun",
+      "Wei-Chun Hsu"
+    ],
+    "year": 2025,
+    "venue": null,
+    "url": "https://link.springer.com/article/10.1186/s12938-025-01409-1"
+  },
+  {
+    "title": "Wearable System for Monitoring the Physical Conditions in Isolated, Confined and Extreme Environments",
+    "authors": [
+      "Jan Hejda",
+      "Patrik Kutilek",
+      "Petr Volf",
+      "Marek Sokol",
+      "Lydie Leova",
+      "Jan Tonner",
+      "Markéta Hejsková",
+      "Veronika Kotolová",
+      "Miroslav Rozloznik",
+      "Tommy Sugiarto",
+      "Yi-Jia Lin",
+      "Kun-Lun Huang",
+      "Wei-Chun Hsu"
+    ],
+    "year": 2024,
+    "venue": null,
+    "url": "https://ieeexplore.ieee.org/abstract/document/10789688/"
+  },
+  {
+    "title": "RGB-D Motion Capture System for Monitoring Health Conditions of Employees in Physically Demanding Professions",
+    "authors": [
+      "Petr Volf",
+      "Jan Hejda",
+      "Marek Sokol",
+      "Lýdie Leová",
+      "Yi-Jia Lin",
+      "Tommy Sugiarto",
+      "Patrik Kutílek"
+    ],
+    "year": 2024,
+    "venue": null,
+    "url": "https://link.springer.com/chapter/10.1007/978-3-031-86323-3_4"
+  },
+  {
+    "title": "Use of Nonlinear Analysis Methods for Visual Evaluation and Graphical Representation of Bilateral Jump Landing Tasks",
+    "authors": [
+      "Petr Volf",
+      "Wei-Chun Hsu",
+      "Jan Hejda",
+      "Yi-Jia Lin",
+      "Patrik Kutílek",
+      "Tommy Sugiarto",
+      "Marek Sokol",
+      "Lýdie Leová",
+      "Hsiao-Liang Tsai",
+      "Ssu-Yu Chang",
+      "Li-Xin Tang"
+    ],
+    "year": 2023,
+    "venue": null,
+    "url": "https://ieeexplore.ieee.org/abstract/document/10218598/"
+  },
+  {
+    "title": "Use of Nonlinear Analysis Methods for Evaluating IMU Data of Bilateral Jump Landing Tasks",
+    "authors": [
+      "Jan Hejda",
+      "Tommy Sugiarto",
+      "Petr Volf",
+      "Yi-Jia Lin",
+      "Patrik Kutílek",
+      "Wei-Chun Hsu",
+      "Marek Sokol",
+      "Jia-Lin Wu",
+      "Lýdie Leová",
+      "Yah-Shiun Jiang",
+      "Yong-Jie Deng"
+    ],
+    "year": 2023,
+    "venue": null,
+    "url": "https://ieeexplore.ieee.org/abstract/document/10218375/"
+  },
+  {
+    "title": "Orientation predicting method, virtual reality headset and non-transitory computer-readable medium",
+    "authors": [
+      "Tommy SUGIARTO",
+      "Chi-Tien Sun"
+    ],
+    "year": 2022,
+    "venue": null,
+    "url": "https://patents.google.com/patent/US11353700B2/en"
+  },
+  {
+    "title": "Surface EMG vs. high-density EMG: Tradeoff between performance and usability for head orientation prediction in VR application",
+    "authors": [
+      "Tommy Sugiarto",
+      "Chun-Lung Hsu",
+      "Chi-Tien Sun",
+      "Wei-Chun Hsu",
+      "Shu-Hao Ye",
+      "Kuan-Ting Lu"
+    ],
+    "year": 2021,
+    "venue": null,
+    "url": "https://ieeexplore.ieee.org/abstract/document/9381217/"
+  },
+  {
+    "title": "Can trunk acceleration differentiate stroke patient gait patterns using time-and frequency-domain features?",
+    "authors": [
+      "Wei-Chun Hsu",
+      "Tommy Sugiarto",
+      "Ying-Yi Liao",
+      "Yi-Jia Lin",
+      "Fu-Chi Yang",
+      "Dueng-Yuan Hueng",
+      "Chi-Tien Sun",
+      "Kuan-Nien Chou"
+    ],
+    "year": 2021,
+    "venue": null,
+    "url": "https://www.mdpi.com/2076-3417/11/4/1541"
+  },
+  {
+    "title": "Head-Orientation-Prediction Based on Deep Learning on sEMG for Low-Latency Virtual Reality Application",
+    "authors": [
+      "Tommy Sugiarto",
+      "Chun-Lung Hsu",
+      "Chi-Tien Sun",
+      "Shu-Hao Ye",
+      "Kuan-Ting Lu",
+      "Wei-Chun Hsu"
+    ],
+    "year": 2020,
+    "venue": null,
+    "url": "https://ieeexplore.ieee.org/abstract/document/9287967/"
+  },
+  {
+    "title": "Controlled Tactile and Vibration Feedback Embedded in a Smart Knee Brace",
+    "authors": [
+      "Wei-Chun Hsu",
+      "Tommy Sugiarto",
+      "Jia-Lin Wu",
+      "Yi-Jia Lin",
+      "Li-Fong Lin",
+      "Chih-Yi Tsai",
+      "Chao-Chin Chang",
+      "Zhong-Rong Hsieh",
+      "Yung-Hsiang Lee"
+    ],
+    "year": 2019,
+    "venue": null,
+    "url": "https://ieeexplore.ieee.org/abstract/document/8922826/"
+  },
+  {
+    "title": "An automatic COPD diagnosis with deep learning on topology-preserving multi spectral image of EEG data",
+    "authors": [
+      "Tommy Sugiarto",
+      "Chun-Lung Hsu",
+      "Chi-Tien Sun",
+      "Shu-Hao Ye",
+      "Kuan-Ting Lu",
+      "Chun-Hua Wang"
+    ],
+    "year": 2019,
+    "venue": null,
+    "url": "https://www.researchgate.net/profile/Tommy-Sugiarto/publication/331888263_An_Automatic_COPD_Diagnosis_with_Deep_Learning_on_Topology-Preserving_Multi_Spectral_Image_of_EEG_Data/links/5c91ad9145851506d71d4ceb/An-Automatic-COPD-Diagnosis-with-Deep-Learning-on-Topology-Preserving-Multi-Spectral-Image-of-EEG-Data.pdf"
+  },
+  {
+    "title": "Physical Activity Intensity Classification using a Convolutional Neural Network and Wearable Accelerometer",
+    "authors": [
+      "Arif Widianto",
+      "Tommy Sugiarto",
+      "Yi-Jia Lin",
+      "Yung-Hsiang Lee",
+      "Wei-Chun Hsu"
+    ],
+    "year": 2019,
+    "venue": null,
+    "url": "https://www.researchgate.net/profile/Tommy-Sugiarto/publication/337414007_Physical_Activity_Intensity_Classification_using_a_Convolutional_Neural_Network_and_Wearable_Accelerometer/links/5dd62eee299bf11ec866e97c/Physical-Activity-Intensity-Classification-using-a-Convolutional-Neural-Network-and-Wearable-Accelerometer.pdf"
+  },
+  {
+    "title": "深度學習技術讓肺部疾病得以掌握治療先機",
+    "authors": [
+      "葉書豪， Tommy Sugiarto， 呂冠霆， 孫際恬， 許鈞瓏"
+    ],
+    "year": 2019,
+    "venue": null,
+    "url": "https://www.airitilibrary.com/Article/Detail/1019391x-201907-201907230014-201907230014-58-61"
+  },
+  {
+    "title": "Multiple-wearable-sensor-based gait classification and analysis in patients with neurological disorders",
+    "authors": [
+      "Wei-Chun Hsu",
+      "Tommy Sugiarto",
+      "Yi-Jia Lin",
+      "Fu-Chi Yang",
+      "Zheng-Yi Lin",
+      "Chi-Tien Sun",
+      "Chun-Lung Hsu",
+      "Kuan-Nien Chou"
+    ],
+    "year": 2018,
+    "venue": null,
+    "url": "https://www.mdpi.com/1424-8220/18/10/3397"
+  },
+  {
+    "title": "The design and application of simplified insole-based prototypes with plantar pressure measurement for fast screening of flat-foot",
+    "authors": [
+      "Wei-Chun Hsu",
+      "Tommy Sugiarto",
+      "Jun-Wen Chen",
+      "Yi-Jia Lin"
+    ],
+    "year": 2018,
+    "venue": null,
+    "url": "https://www.mdpi.com/1424-8220/18/11/3617"
+  },
+  {
+    "title": "運用慣性測量單元之時間空間參數於健 康族群之步態分析驗證暨基於頻域參數 之中風病患步態分類",
+    "authors": [
+      "Tommy Sugiarto"
+    ],
+    "year": 2018,
+    "venue": null,
+    "url": null
+  },
+  {
+    "title": "Validation of the use of Inertial-Measurement-Unit Sensor Based Gait Analysis in Healthy Subjects and the Application in the Gait Classification in Patients with Stroke",
+    "authors": [
+      "Tommy Sugiarto"
+    ],
+    "year": 2018,
+    "venue": null,
+    "url": null
+  },
+  {
+    "title": "Gait analysis based on an inertial measurement unit sensor: Validation of spatiotemporal parameters calculation in healthy young and older adults",
+    "authors": [
+      "Tommy Sugiarto",
+      "Yi-Jia Lin",
+      "Chao-Chin Chang",
+      "Wei-Chun Hsu"
+    ],
+    "year": 2017,
+    "venue": null,
+    "url": "https://ieeexplore.ieee.org/abstract/document/8279273/"
+  },
+  {
+    "title": "Wearable Sensor Based Analysis for Hemiplegic Gait with Clinical Perpective and Spatiotemporal Parameters",
+    "authors": [
+      "M. Adeel",
+      "T. Sugiarto",
+      "W-C Hsu"
+    ],
+    "year": 2017,
+    "venue": null,
+    "url": null
+  },
+  {
+    "title": "The Effect of Seated Distance on Muscle Activation and Joint Kinematics During Seated Strengthening in Patients with Stroke with Extensor Synergy Pattern in the Lower Limbs",
+    "authors": [
+      "Y.-H. Chen",
+      "P.-Y. Chiang",
+      "T. Sugiarto",
+      "I. Karsunawati",
+      "Y.-J. Lin",
+      "C.-C. Chang",
+      "HSU W.-C."
+    ],
+    "year": 2017,
+    "venue": null,
+    "url": null
+  },
+  {
+    "title": "LabVIEW-Arduino Interfacing for Data Acquisition and Telemetry System",
+    "authors": [
+      "TOMMY SUGIARTO"
+    ],
+    "year": 2016,
+    "venue": null,
+    "url": "https://www.researchgate.net/profile/Tommy-Sugiarto/publication/299602749_LabVIEW-Arduino_Interfacing_for_Data_Acquisition_and_Telemetry_System/links/570272cd08aedbfaedb7e288/LabVIEW-Arduino-Interfacing-for-Data-Acquisition-and-Telemetry-System.pdf"
+  },
+  {
+    "title": "Electromyographic Analysis of Immediate Effect of Biofeedback with Pedaling Rate on Similarity Between Stepping Exercise and Walking Pattern",
+    "authors": [
+      "Po-Yi Chiang",
+      "Hung-Bin Chen",
+      "Chao-Chin Chang",
+      "Yi-Hui Chen",
+      "Inda Karsuna",
+      "Tommy Sugiarto",
+      "Wei-Chun HSU"
+    ],
+    "year": 2016,
+    "venue": null,
+    "url": null
+  },
+  {
+    "title": "The Effect of Resistance and Seated Positions on the Similarity of Muscle Contraction Patterns and Electromyographic Indices Between Seated-Ergometer Stepping Under Auditory …",
+    "authors": [
+      "Yi-Hui Chen",
+      "Li-Fong Lin",
+      "Po-Yi Chiang",
+      "Tommy Sugiarto",
+      "and Wei-Chun HSU"
+    ],
+    "year": 2016,
+    "venue": null,
+    "url": null
+  },
+  {
+    "title": "The Effects of Resistance and Speed on Gait Asymmetry during Seated Stepping in Patients with Stroke and Age-matched Elderly",
+    "authors": [
+      "Tommy Sugiarto",
+      "Inda Karsunawati",
+      "Yi-Jia Lin",
+      "Yi-Hue Chen",
+      "Chao-Chin Chang",
+      "Wei-Chun Hsu"
+    ],
+    "year": 2016,
+    "venue": null,
+    "url": null
+  },
+  {
+    "title": "Rancang Bangun Sistem Pengujian Motor Brushless Untuk Aplikasi Solar-Lapan Surveillance Uav Berbasis Labview (Design of Brushless Motor Performance Testing System for Solar-Lapan Surveillance Uav Application Based on Labview)",
+    "authors": [
+      "Tommy Sugiarto",
+      "Imas Tri Setyadewi",
+      "Aryandi Marta",
+      "Gunawan Setyo Prabowo"
+    ],
+    "year": 2015,
+    "venue": null,
+    "url": "https://scholar.google.com/scholar?cluster=18412345901805177460&hl=en&oi=scholarr"
+  }
+]
