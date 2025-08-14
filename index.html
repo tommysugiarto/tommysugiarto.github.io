@@ -25,77 +25,155 @@
     </div>
   </header>
 
-  <main class="container">
-    <section id="about">
-      <h2>About</h2>
-      <p>Engineer at ITRI focusing on AI and computer vision for biomechanics and aerospace applications: embedded AI, human motion analysis, biomechanincs and dynamic-vision-sensors applications.</p>
-    </section>
+<main class="container">
+  <!-- About -->
+  <section id="about">
+    <h2 class="section-title">
+      <!-- person-circle icon -->
+      <svg class="icon" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
+        <path d="M12 12a5 5 0 1 0-5-5 5 5 0 0 0 5 5Zm0 2c-4.42 0-8 2.239-8 5v1h16v-1c0-2.761-3.58-5-8-5Z"/>
+      </svg>
+      About
+    </h2>
+    <p>Engineer at ITRI focusing on AI and computer vision for biomechanics and aerospace applications: embedded AI, human motion analysis, biomechanics, and dynamic‑vision‑sensor applications.</p>
+  </section>
 
-    <section id="education">
-      <h2>Education</h2>
-      <ul class="edu">
-        <li><strong>Ph.D in Biomedical Engineering.</strong> National Taiwan University of Science and Technology 2018 to 2025</li>
-        <li><strong>M.Sc. in Biomedical Engineering</strong> National Taiwan University of Science and Technology 2016 to 2018</li>
-        <li><strong>B.Sc. in Physics/Electronics Instrumentation.</strong> University of Indonesia 2010 to 2014</li>
+  <!-- Education -->
+  <section id="education">
+    <h2 class="section-title">
+      <!-- graduation-cap icon -->
+      <svg class="icon" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
+        <path d="M12 3 1 8l11 5 9-4.091V17h2V8z"/><path d="M7 12v4.5a5 5 0 0 0 10 0V12l-5 2.273z"/>
+      </svg>
+      Education
+    </h2>
+    <ul class="edu">
+      <li>
+        <div class="org">
+          <img class="org-logo" src="assets/ntust.png" alt="NTUST logo">
+          <div>
+            <strong>Ph.D., Biomedical Engineering</strong> — National Taiwan University of Science and Technology
+            · <time>2018–2025</time>
+          </div>
+        </div>
+      </li>
+      <li>
+        <div class="org">
+          <img class="org-logo" src="assets/ntust.png" alt="NTUST logo">
+          <div>
+            <strong>M.Sc., Biomedical Engineering</strong> — National Taiwan University of Science and Technology
+            · <time>2016–2018</time>
+          </div>
+        </div>
+      </li>
+      <li>
+        <div class="org">
+          <img class="org-logo" src="assets/ui.png" alt="University of Indonesia logo">
+          <div>
+            <strong>B.Sc., Physics (Electronics Instrumentation)</strong> — University of Indonesia
+            · <time>2010–2014</time>
+          </div>
+        </div>
+      </li>
+    </ul>
+  </section>
+
+  <!-- Projects -->
+  <section id="projects">
+    <h2 class="section-title">
+      <!-- sparkles icon -->
+      <svg class="icon" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
+        <path d="M5 3l1.5 3L10 7.5 6.5 9 5 12 3.5 9 0 7.5 3.5 6 5 3Zm11 1l2 4 4 2-4 2-2 4-2-4-4-2 4-2 2-4Zm-7 8l1 2 2 1-2 1-1 2-1-2-2-1 2-1 1-2Z"/>
+      </svg>
+      Selected Projects
+    </h2>
+    <article class="card">
+      <h3>Knee Joint Moment Prediction</h3>
+      <p>Deep learning with IMU data and reinforcement learning for injury risk assessment.</p>
+    </article>
+    <article class="card">
+      <h3>DVS High‑speed Tracking</h3>
+      <p>Event‑camera pipeline for ultra‑fast objects and stereo fusion.</p>
+    </article>
+    <article class="card">
+      <h3>Exercise and Physiology in Isolated, Confined, and Extreme Environments</h3>
+      <p>Collaboration with Hydronaut and CTU on sensing and analytics for isolated habitats.</p>
+    </article>
+  </section>
+
+  <!-- Experience -->
+  <section id="experience">
+    <h2 class="section-title">
+      <!-- briefcase icon -->
+      <svg class="icon" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
+        <path d="M9 3h6a2 2 0 0 1 2 2v1h3a2 2 0 0 1 2 2v3H0V8a2 2 0 0 1 2-2h3V5a2 2 0 0 1 2-2Zm1 3V5h4v1Z"/><path d="M24 11v7a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2v-7h9v1h6v-1z"/>
+      </svg>
+      Experience
+    </h2>
+
+    <article class="card">
+      <h3>Engineer, Embedded System and SoC Technology</h3>
+      <div class="sub org">
+        <img class="org-logo" src="assets/itri.png" alt="ITRI logo">
+        <span>Industrial Technology Research Institute (ITRI) · <time>Apr 2018 – Present</time></span>
+      </div>
+      <ul class="bullets">
+        <li>Human pose estimation, action recognition, object detection, and time‑series modeling.</li>
+        <li>Optimized AI models for low‑power and embedded systems.</li>
+        <li>R&amp;D on Dynamic Vision Sensors for ultra‑high‑speed tracking.</li>
+        <li>Automated testing systems for satellite boards, ICs, and systems.</li>
       </ul>
-    </section>
-    
-    <section id="projects">
-      <h2>Selected Projects</h2>
-      <article class="card">
-        <h3>Knee Joint Moment Prediction</h3>
-        <p>Deep learning with IMU data and reinforcement learning for injury risk assessment</p>
-      </article>
-      <article class="card">
-        <h3>DVS High-speed Tracking</h3>
-        <p>Event-camera pipeline for ultra-fast objects and stereo fusion.</p>
-      </article>
-      <article class="card">
-        <h3>Exercise and Physiology in Isolated, Confined, and Extreme Environments</h3>
-        <p>Collaboration with Hydronaut and CTU on sensing and analytics for isolated habitats.</p>
-      </article>
-    </section>
+    </article>
 
-    <section id="publications">
-      <h2>Publications</h2>
-      <p class="muted">Auto-updated from Google Scholar. If this looks empty, GitHub Actions will populate it during the first run. You can trigger it manually in the Actions tab.</p>
-      <div id="pub-list" class="pubs"></div>
-      <p class="muted">See more on <a href="https://scholar.google.com/citations?user=oPSq5PQAAAAJ&hl=en">Google Scholar</a>.</p>
-    </section>
+    <article class="card">
+      <h3>Visiting Researcher</h3>
+      <div class="sub org">
+        <img class="org-logo" src="assets/hsnr.png" alt="Hochschule Niederrhein logo">
+        <span>Hochschule Niederrhein, Krefeld · <time>Feb 2018 – Mar 2018</time></span>
+      </div>
+    </article>
 
-    <section id="experience">
-      <h2>Experience</h2>
-      <article class="card">
-        <h3>Engineer, Embedded System and SoC Technology</h3>
-        <div class="sub">Industrial Technology Research Institute (ITRI) · <time>Apr 2018 – Present</time></div>
-        <ul class="bullets">
-          <li>Human pose estimation, action recognition, object detection, and time-series modeling.</li>
-          <li>Optimized AI models for low-power and embedded systems.</li>
-          <li>R and D on Dynamic Vision Sensor for ultra-high-speed tracking.</li>
-          <li>Automated testing systems for satellite boards, ICs, and systems.</li>
-        </ul>
-      </article>
-      <article class="card">
-        <h3>Visiting Researcher</h3>
-        <div class="sub">Hochschule Niederrhein, Krefeld · <time>Feb 2018 – Mar 2018</time></div>
-      </article>
-      <article class="card">
-        <h3>Research Assistant</h3>
-        <div class="sub">National Institute of Aeronautics and Space, Indonesia · <time>May 2015 – Feb 2016</time></div>
-      </article>
-    </section>
+    <article class="card">
+      <h3>Research Assistant</h3>
+      <div class="sub org">
+        <img class="org-logo" src="assets/lapan.png" alt="Indonesian National Institute of Aeronautics and Space logo">
+        <span>National Institute of Aeronautics and Space (Indonesia) · <time>May 2015 – Feb 2016</time></span>
+      </div>
+    </article>
+  </section>
 
+  <!-- Publications: moved to just before Awards -->
+  <section id="publications">
+    <h2 class="section-title">
+      <!-- book icon -->
+      <svg class="icon" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
+        <path d="M3 4a2 2 0 0 1 2-2h13a3 3 0 0 1 3 3v15.5a.5.5 0 0 1-.8.4L18 19H5a2 2 0 0 1-2-2Z"/>
+      </svg>
+      Publications
+    </h2>
+    <p class="muted">Auto‑updated from Google Scholar. If this looks empty, run the workflow in the Actions tab.</p>
+    <div id="pub-list" class="pubs"></div>
+    <p class="muted">See more on <a href="https://scholar.google.com/citations?user=oPSq5PQAAAAJ&hl=en">Google Scholar</a>.</p>
+  </section>
 
-    <section id="awards">
-      <h2>Awards</h2>
-      <ul class="awards">
-        <li><strong>Honorable Mention Best Presentation</strong> Automation 2024 · <time>Nov 2024</time></li>
-        <li><strong>Intel DevCup Finalist</strong> · <time>Jan 2023</time></li>
-        <li><strong>Intel DevCup Finalist</strong> · <time>Jan 2022</time></li>
-        <li><strong>ITRI ICL Best International Paper</strong> · <time>Aug 2021</time></li>
-      </ul>
-    </section>
-  </main>
+  <!-- Awards -->
+  <section id="awards">
+    <h2 class="section-title">
+      <!-- trophy icon -->
+      <svg class="icon" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
+        <path d="M17 3h-2V2H9v1H7a2 2 0 0 0-2 2v1a4 4 0 0 0 3.4 3.95A5 5 0 0 0 11 14v2H7v2h10v-2h-4v-2a5 5 0 0 0 2.6-4.05A4 4 0 0 0 19 6V5a2 2 0 0 0-2-2Zm-9 4A2 2 0 0 1 6 5h1v2Zm11-2a2 2 0 0 1-2 2V5Z"/>
+      </svg>
+      Awards
+    </h2>
+    <ul class="awards">
+      <li><strong>Honorable Mention Best Presentation</strong> — Automation 2024 · <time>Nov 2024</time></li>
+      <li><strong>Intel DevCup Finalist</strong> · <time>Jan 2023</time></li>
+      <li><strong>Intel DevCup Finalist</strong> · <time>Jan 2022</time></li>
+      <li><strong>ITRI ICL Best International Paper</strong> · <time>Aug 2021</time></li>
+    </ul>
+  </section>
+</main>
+
 
   <footer class="site-footer">
     <div class="container">
