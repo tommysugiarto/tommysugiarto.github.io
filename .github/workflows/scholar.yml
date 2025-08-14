@@ -2,12 +2,13 @@ name: Update publications from Google Scholar
 
 on:
   schedule:
-    - cron: "7 2 * * 1"  # every Monday at 02:07 UTC
+    - cron: "7 2 * * 1"   # weekly
   workflow_dispatch:
   push:
     paths:
       - ".github/workflows/scholar.yml"
       - "tools/fetch_scholar.py"
+      - "requirements.txt"
 
 permissions:
   contents: write
@@ -29,8 +30,13 @@ jobs:
           python -m pip install --upgrade pip
           pip install -r requirements.txt
 
-      - name: Fetch Google Scholar publications
-        run: python tools/fetch_scholar.py
+      # Auto-retry the fetch step (up to 3 attempts)
+      - name: Fetch Google Scholar publications (with retry)
+        uses: nick-fields/retry@v3
+        with:
+          max_attempts: 3
+          timeout_minutes: 10
+          command: python tools/fetch_scholar.py
 
       - name: Commit changes
         run: |
