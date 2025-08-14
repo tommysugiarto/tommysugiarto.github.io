@@ -86,11 +86,21 @@ h2 { margin: 8px 0 10px; font-size: 1.4rem; }
 
 /* --- Section headers with icons --- */
 .section-title {
-  display: flex; align-items: center; gap: 10px; margin: 8px 0 10px;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin: 8px 0 10px;
+  font-size: 1.4rem;
+  line-height: 1.2;
 }
+
 .icon {
-  width: 22px; height: 22px; flex: 0 0 22px;
+  width: 20px;
+  height: 20px;
+  flex: 0 0 20px;
+  font-size: 0; /* stop inheriting text size */
 }
+
 
 /* --- Publication list look --- */
 .pubs .pub { padding: 10px 0; border-bottom: 1px dashed rgba(0,0,0,0.06); }
