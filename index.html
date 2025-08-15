@@ -184,29 +184,48 @@
   <script>
     document.getElementById('y').textContent = new Date().getFullYear();
   </script>
-  <script>
-    async function loadPubs() {
-      try {
-        const res = await fetch('publications.json', { cache: 'no-store' });
-        if (!res.ok) throw new Error('No publications.json yet');
-        const data = await res.json();
-        const wrap = document.getElementById('pub-list');
-        if (!Array.isArray(data) || data.length === 0) {
-          wrap.innerHTML = '<p class="muted">No publications found yet.</p>';
-          return;
-        }
-        wrap.innerHTML = data.map(p => {
-          const link = p.url ? `<a href="${p.url}">Link</a>` : '';
-          return `<div class="pub">
-              <div class="pub-title"><strong>${p.title || ''}</strong></div>
-              <div class="pub-meta">${(p.authors || []).join(', ')} · <em>${p.venue || ''}</em> · <time>${p.year || ''}</time> ${link}</div>
-            </div>`;
-        }).join('');
-      } catch (e) {
-        document.getElementById('pub-list').innerHTML = '<p class="muted">Publications will appear after the first sync.</p>';
+  
+<script>
+  document.getElementById('y').textContent = new Date().getFullYear();
+
+  async function loadPubs() {
+    const wrap = document.getElementById('pub-list');
+    try {
+      const res = await fetch('publications.json?ts=' + Date.now(), { cache: 'no-store' });
+      if (!res.ok) throw new Error('publications.json not found');
+      const data = await res.json();
+
+      const pubs = Array.isArray(data) ? data : (data.publications || []);
+      if (!pubs.length) {
+        wrap.innerHTML = '<p class="muted">No publications found yet.</p>';
+        return;
       }
+
+      // Sort newest first
+      pubs.sort((a, b) => (b.year || 0) - (a.year || 0));
+
+      // Keep only latest 7
+      const latest = pubs.slice(0, 7);
+
+      wrap.innerHTML = latest.map(p => {
+        const title = p.title || '';
+        const authors = Array.isArray(p.authors) ? p.authors.join(', ') : (p.authors || '');
+        const venue = p.venue || '';
+        const year = p.year || '';
+        const link = p.url ? `<a href="${p.url}" rel="noopener">Link</a>` : '';
+        return `
+          <div class="pub">
+            <div class="pub-title"><strong>${title}</strong></div>
+            <div class="pub-meta">${authors} · <em>${venue}</em> · <time>${year}</time> ${link}</div>
+          </div>`;
+      }).join('');
+    } catch (e) {
+      console.warn(e);
+      wrap.innerHTML = '<p class="muted">Publications will appear after the first sync.</p>';
     }
-    loadPubs();
-  </script>
+  }
+  loadPubs();
+</script>
+
 </body>
 </html>
