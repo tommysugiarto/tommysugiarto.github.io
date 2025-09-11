@@ -48,8 +48,8 @@ body {
 }
 
 .avatar {
-  width: 320px;   /* default (desktop/laptop) */
-  height: 320px;
+  width: 240px;   /* default (desktop/laptop) */
+  height: 240px;
   border-radius: 50%;
   object-fit: cover;
   border: 3px solid rgba(0,0,0,0.2);
