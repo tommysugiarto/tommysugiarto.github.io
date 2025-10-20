@@ -1,5 +1,21 @@
 [
   {
+    "title": "Exploring knee joint moment prediction models for landing task with various model architecture: Leveraging inertial measurement unit sensors data and subject-specific attributes",
+    "authors": [
+      "Tommy Sugiarto",
+      "Yi-Jia Lin",
+      "Ya-Wen Tu",
+      "Hsiao-Liang Tsai",
+      "Lin-Fen Hsieh",
+      "Chi-Tien Sun",
+      "Patrik Kutilek",
+      "Wei-Chun Hsu"
+    ],
+    "year": 2025,
+    "venue": null,
+    "url": "https://www.sciencedirect.com/science/article/pii/S095219762502144X"
+  },
+  {
     "title": "Performance of deep-learning models incorporating knee alignment information for predicting ground reaction force during walking",
     "authors": [
       "Tommy Sugiarto",
