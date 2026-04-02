@@ -1,5 +1,23 @@
 [
   {
+    "title": "Multimodal Wearable Monitoring of Exercise in Isolated, Confined, and Extreme Environments: A Standardized Method",
+    "authors": [
+      "Jan Hejda",
+      "Marek Sokol",
+      "Lydie Leova,
+      "Petr Volf",
+      "Jan Tonner",
+      "Wei-Chun Hsu",
+      "Yi-Jia Lin",
+      "Tommy Sugiarto",
+      "Miroslav Rozlosnik",
+      "Patrik Kutilek"
+    ],
+    "year": 2026,
+    "venue": null,
+    "url": "https://www.mdpi.com/2409-9279/9/1/15"
+  },
+  {
     "title": "Exploring knee joint moment prediction models for landing task with various model architecture: Leveraging inertial measurement unit sensors data and subject-specific attributes",
     "authors": [
       "Tommy Sugiarto",
