@@ -1,0 +1,292 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Konsultasi • Tommy Sugiarto</title>
+  <meta name="description" content="Konsultasi akademik dan AI untuk teknik biomedis, pengolahan sinyal, computer vision, dan proyek riset berbasis sensor." />
+  <link rel="stylesheet" href="styles.css" />
+  <link rel="icon" href="data:,">
+  <style>
+    .hero-note {
+      display: inline-block;
+      margin-top: 10px;
+      padding: 8px 14px;
+      border-radius: 999px;
+      background: rgba(0, 113, 227, 0.08);
+      border: 1px solid rgba(0, 113, 227, 0.12);
+      color: var(--link);
+      font-weight: 600;
+    }
+
+    .hero-actions {
+      display: flex;
+      gap: 12px;
+      justify-content: center;
+      flex-wrap: wrap;
+      margin-top: 18px;
+    }
+
+    .button-link {
+      display: inline-block;
+      text-decoration: none;
+      font-weight: 600;
+      padding: 10px 16px;
+      border-radius: 999px;
+      transition: transform 120ms ease;
+    }
+
+    .button-link:hover {
+      transform: translateY(-1px);
+    }
+
+    .button-primary {
+      color: #fff;
+      background: var(--link);
+      border: 1px solid var(--link);
+    }
+
+    .button-secondary {
+      color: var(--link);
+      background: rgba(0, 113, 227, 0.06);
+      border: 1px solid rgba(0, 113, 227, 0.10);
+    }
+
+    .grid-2 {
+      display: grid;
+      grid-template-columns: repeat(2, minmax(0, 1fr));
+      gap: 16px;
+    }
+
+    .service-card h3,
+    .mini-card h3 {
+      margin-bottom: 8px;
+    }
+
+    .service-card p,
+    .mini-card p {
+      margin: 0;
+    }
+
+    .highlight-card {
+      background: linear-gradient(180deg, rgba(255,255,255,1) 0%, rgba(247,250,255,1) 100%);
+    }
+
+    .steps {
+      counter-reset: step;
+      list-style: none;
+      padding: 0;
+      margin: 0;
+      display: grid;
+      gap: 14px;
+    }
+
+    .steps li {
+      position: relative;
+      padding: 16px 16px 16px 58px;
+      background: var(--card);
+      border: 1px solid var(--border);
+      border-radius: var(--radius);
+      box-shadow: var(--shadow);
+    }
+
+    .steps li::before {
+      counter-increment: step;
+      content: counter(step);
+      position: absolute;
+      left: 16px;
+      top: 16px;
+      width: 28px;
+      height: 28px;
+      border-radius: 50%;
+      background: rgba(0, 113, 227, 0.10);
+      color: var(--link);
+      display: grid;
+      place-items: center;
+      font-weight: 700;
+    }
+
+    .contact-box {
+      text-align: center;
+      padding: 28px 20px;
+    }
+
+    .small-note {
+      font-size: 0.95rem;
+      color: var(--muted);
+    }
+
+    @media (max-width: 760px) {
+      .grid-2 {
+        grid-template-columns: 1fr;
+      }
+    }
+  </style>
+</head>
+<body>
+  <header class="site-header">
+    <div class="container">
+      <h1>Konsultasi Akademik dan AI</h1>
+      <p class="tagline">Teknik Biomedis • Pengolahan Sinyal • Computer Vision • Riset Berbasis Sensor</p>
+      <p class="muted">Membantu mahasiswa, peneliti, dan engineer menyusun metode yang lebih jelas dan hasil proyek yang lebih andal.</p>
+      <p class="hero-note">Konsultasi Awal Gratis, 30 Menit</p>
+      <div class="hero-actions">
+        <a class="button-link button-primary" href="mailto:tommysugiarto70@gmail.com">Ajukan Sesi Perkenalan Gratis</a>
+        <a class="button-link button-secondary" href="index.html">Kembali ke Portfolio</a>
+      </div>
+      <nav class="links" style="margin-top:18px;">
+        <a href="mailto:tommysugiarto70@gmail.com" aria-label="Email">Gmail</a>
+        <a href="https://tw.linkedin.com/in/tommy-sugiarto-65a32ab9" aria-label="LinkedIn">LinkedIn</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="container">
+    <section id="overview">
+      <h2 class="section-title">
+        <svg class="icon" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
+          <path d="M12 12a5 5 0 1 0-5-5 5 5 0 0 0 5 5Zm0 2c-4.42 0-8 2.239-8 5v1h16v-1c0-2.761-3.58-5-8-5Z"/>
+        </svg>
+        Gambaran Layanan
+      </h2>
+      <div class="card">
+        <p>Saya menyediakan layanan konsultasi untuk proyek akademik dan teknis yang berkaitan dengan teknik biomedis, biomedical signal processing, artificial intelligence, computer vision, dan sistem berbasis sensor. Dukungan ini ditujukan bagi Anda yang membutuhkan arahan yang lebih jelas, metodologi yang lebih kuat, bantuan pemecahan masalah teknis, atau pendampingan yang lebih terstruktur untuk riset maupun pengembangan proyek.</p>
+        <p>Layanan ini sangat cocok untuk mahasiswa S1, S2, S3, peneliti tahap awal, maupun engineer yang sedang mengerjakan tugas akhir, pengembangan model AI, pipeline analisis data, atau proof-of-concept system.</p>
+      </div>
+    </section>
+
+    <section id="services">
+      <h2 class="section-title">
+        <svg class="icon" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
+          <path d="M5 3l1.5 3L10 7.5 6.5 9 5 12 3.5 9 0 7.5 3.5 6 5 3Zm11 1l2 4 4 2-4 2-2 4-2-4-4-2 4-2 2-4Zm-7 8l1 2 2 1-2 1-1 2-1-2-2-1 2-1 1-2Z"/>
+        </svg>
+        Layanan
+      </h2>
+      <div class="grid-2">
+        <article class="card service-card">
+          <h3>Konsultasi Tesis dan Riset</h3>
+          <p>Dukungan untuk pematangan topik, perancangan studi, pemilihan metodologi, perencanaan eksperimen, serta diskusi paper atau tesis.</p>
+        </article>
+        <article class="card service-card">
+          <h3>Dukungan Pengembangan Model AI</h3>
+          <p>Pendampingan untuk alur kerja machine learning dan deep learning, termasuk persiapan data, desain model, strategi evaluasi, dan peningkatan performa.</p>
+        </article>
+        <article class="card service-card">
+          <h3>Analisis Data Sensor dan Signal Processing</h3>
+          <p>Bantuan untuk IMU, sinyal biomedis, analisis time-series, filtering, feature engineering, dan interpretasi data eksperimen berbasis sensor.</p>
+        </article>
+        <article class="card service-card">
+          <h3>Code Review dan Troubleshooting Teknis</h3>
+          <p>Dukungan praktis untuk debugging kode berbasis Python, perbaikan struktur pipeline, dan penyelesaian kendala implementasi.</p>
+        </article>
+      </div>
+    </section>
+
+    <section id="free-session">
+      <h2 class="section-title">
+        <svg class="icon" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
+          <path d="M12 2a10 10 0 1 0 10 10A10.011 10.011 0 0 0 12 2Zm1 11h4v-2h-3V7h-2v6Z"/>
+        </svg>
+        Konsultasi Awal Gratis
+      </h2>
+      <div class="card highlight-card">
+        <h3>Sesi Perkenalan 30 Menit</h3>
+        <p>Sesi gratis ini ditujukan untuk memahami proyek Anda, mengidentifikasi tantangan utama, dan memberikan arahan awal untuk langkah berikutnya.</p>
+        <ul class="bullets">
+          <li>Mendiskusikan latar belakang dan tujuan proyek Anda.</li>
+          <li>Mengidentifikasi tantangan teknis atau tantangan riset yang utama.</li>
+          <li>Menguraikan pendekatan atau perbaikan yang memungkinkan.</li>
+          <li>Menentukan apakah dukungan lanjutan akan bermanfaat.</li>
+        </ul>
+        <p class="small-note">Pendampingan yang lebih rinci, pekerjaan teknis yang lebih mendalam, dan bimbingan proyek berkelanjutan akan dibahas dalam sesi lanjutan setelah sesi awal ini.</p>
+      </div>
+    </section>
+
+    <section id="focus-areas">
+      <h2 class="section-title">
+        <svg class="icon" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
+          <path d="M12 3 1 8l11 5 9-4.091V17h2V8z"/><path d="M7 12v4.5a5 5 0 0 0 10 0V12l-5 2.273z"/>
+        </svg>
+        Area Fokus
+      </h2>
+      <div class="grid-2">
+        <article class="card mini-card">
+          <h3>Teknik Biomedis</h3>
+          <p>Biomekanika, analisis gerak manusia, sistem terkait rehabilitasi, dan aplikasi riset berbasis sensor.</p>
+        </article>
+        <article class="card mini-card">
+          <h3>Biomedical Signal Processing</h3>
+          <p>Filtering, preprocessing, feature extraction, dan analisis sinyal fisiologis maupun sinyal dari wearable sensor.</p>
+        </article>
+        <article class="card mini-card">
+          <h3>Artificial Intelligence dan Computer Vision</h3>
+          <p>Penerapan machine learning dan deep learning untuk classification, regression, pose estimation, tracking, dan prototyping sistem.</p>
+        </article>
+        <article class="card mini-card">
+          <h3>Proyek Berbasis Sensor</h3>
+          <p>Dukungan untuk studi berbasis IMU, pipeline time-series, dan alur kerja riset yang menantang secara teknis dan membutuhkan pendampingan terstruktur.</p>
+        </article>
+      </div>
+    </section>
+
+    <section id="process">
+      <h2 class="section-title">
+        <svg class="icon" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
+          <path d="M3 4a2 2 0 0 1 2-2h13a3 3 0 0 1 3 3v15.5a.5.5 0 0 1-.8.4L18 19H5a2 2 0 0 1-2-2Z"/>
+        </svg>
+        Cara Kerja
+      </h2>
+      <ol class="steps">
+        <li><strong>Kirim deskripsi singkat:</strong> Jelaskan secara singkat topik Anda, tantangan yang sedang dihadapi, dan jenis dukungan yang Anda butuhkan.</li>
+        <li><strong>Ikuti sesi perkenalan gratis:</strong> Kita diskusikan proyek Anda dan tentukan langkah berikutnya yang paling bermanfaat.</li>
+        <li><strong>Terima saran rencana pendampingan:</strong> Jika diperlukan, saya akan merekomendasikan format konsultasi yang sesuai dengan cakupan proyek Anda.</li>
+        <li><strong>Lanjut dengan pendampingan terstruktur:</strong> Sesi lanjutan dapat difokuskan pada metodologi, coding, pengembangan model, atau arah riset.</li>
+      </ol>
+    </section>
+
+    <section id="notes">
+      <h2 class="section-title">
+        <svg class="icon" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
+          <path d="M9 3h6a2 2 0 0 1 2 2v1h3a2 2 0 0 1 2 2v3H0V8a2 2 0 0 1 2-2h3V5a2 2 0 0 1 2-2Zm1 3V5h4v1Z"/><path d="M24 11v7a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2v-7h9v1h6v-1z"/>
+        </svg>
+        Catatan Penting
+      </h2>
+      <div class="card">
+        <ul class="bullets">
+          <li>Layanan ini berfokus pada arahan, mentoring, diskusi teknis, dan dukungan proyek.</li>
+          <li>Konsultasi ditujukan untuk membantu klien memahami dan meningkatkan pekerjaannya sendiri.</li>
+          <li>Dukungan diberikan berdasarkan pengetahuan teknis umum, pengalaman riset, dan metode yang tersedia secara publik.</li>
+          <li>Informasi tarif dibagikan secara pribadi setelah diskusi awal, tergantung kebutuhan dan cakupan proyek.</li>
+        </ul>
+      </div>
+    </section>
+
+    <section id="contact">
+      <h2 class="section-title">
+        <svg class="icon" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
+          <path d="M21 6.5a2.5 2.5 0 0 0-2.5-2.5h-13A2.5 2.5 0 0 0 3 6.5v11A2.5 2.5 0 0 0 5.5 20h13a2.5 2.5 0 0 0 2.5-2.5Zm-2 .5-7 4.667L5 7Z"/>
+        </svg>
+        Kontak
+      </h2>
+      <div class="card contact-box">
+        <h3>Ajukan Sesi Perkenalan Gratis</h3>
+        <p>Kirim pesan singkat berisi topik Anda, tantangan saat ini, dan jenis dukungan yang Anda butuhkan.</p>
+        <nav class="links" style="margin-top: 14px;">
+          <a href="mailto:tommysugiarto70@gmail.com">tommysugiarto70@gmail.com</a>
+          <a href="https://tw.linkedin.com/in/tommy-sugiarto-65a32ab9">LinkedIn</a>
+        </nav>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <small>© <span id="y"></span> Tommy Sugiarto. Dibuat dengan GitHub Pages.</small>
+    </div>
+  </footer>
+
+  <script>
+    document.getElementById('y').textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
